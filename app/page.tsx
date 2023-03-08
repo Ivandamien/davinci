@@ -3,7 +3,7 @@ import { SunIcon, BoltIcon, ExclamationTriangleIcon } from '@heroicons/react/24/
 const Homepage = () => {
   return (
     <div className='flex flex-col items-center justify-center h-screen text-white px-2'>
-      <h1 className='text-5xl font-bold mb-20'>ChatGpt clone</h1>
+      <h1 className='text-5xl font-bold mb-20'>Davinci code</h1>
 
       <div className='flex flex-col items-center justify-center space-y-2 md:flex-row md:space-x-2 text-center'>
 
