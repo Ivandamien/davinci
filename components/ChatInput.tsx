@@ -47,7 +47,7 @@ function ChatInput({chatId}: Props) {
         )
 
         // Toast notification to say loading
-        const notification =toast.loading('ChatGPT is thinking...')
+        const notification =toast.loading('Davinci is thinking...')
 
         await fetch('/api/askQuestion', {
             method:'POST',
@@ -62,7 +62,7 @@ function ChatInput({chatId}: Props) {
             })
         }).then(() => {
             // Toast notification to say successful!
-            toast.success('ChatGPT has responded', {
+            toast.success('Davinci has responded', {
                 id:notification,
             })
         })
