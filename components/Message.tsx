@@ -5,7 +5,7 @@ type Props = {
     message:DocumentData
 }
 function Message({message}:Props) {
-const isChatGPT = message.user.name === "ChatGPT"
+const isChatGPT = message.user.name === "Davinci"
 
   return (
       <div className={`py-5 text-white ${isChatGPT && "bg-[#434654]"}`}>
